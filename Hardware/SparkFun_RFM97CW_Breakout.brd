@@ -57,7 +57,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -200,7 +200,7 @@
 <wire x1="22.86" y1="0" x2="22.86" y2="30.48" width="0.2032" layer="20"/>
 <wire x1="22.86" y1="30.48" x2="0" y2="30.48" width="0.2032" layer="20"/>
 <wire x1="0" y1="30.48" x2="0" y2="0" width="0.2032" layer="20"/>
-<text x="8.382" y="5.08" size="1.016" layer="16" ratio="20" rot="MR0" align="center">x02</text>
+<text x="8.382" y="5.08" size="1.016" layer="16" ratio="20" rot="MR0" align="center">x03</text>
 <hole x="13.97" y="24.765" drill="1.5"/>
 <rectangle x1="10.668" y1="27.051" x2="12.192" y2="28.829" layer="41"/>
 </plain>
@@ -314,7 +314,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
 <package name="RFM97">
-<circle x="5.398" y="6.254" radius="0.5" width="0.127" layer="21"/>
+<circle x="-5.016" y="-5.557" radius="0.5" width="0.127" layer="21"/>
 <wire x1="-8" y1="8" x2="8" y2="8" width="0.127" layer="21"/>
 <wire x1="-8" y1="-8" x2="8" y2="-8" width="0.127" layer="21"/>
 <smd name="!CS!" x="-7.9" y="-3" dx="1.75" dy="1.35" layer="1"/>
@@ -333,7 +333,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="SCK" x="-7.9" y="3" dx="1.75" dy="1.35" layer="1"/>
 <smd name="SDI" x="-7.9" y="-1" dx="1.75" dy="1.35" layer="1"/>
 <smd name="SDO" x="-7.9" y="1" dx="1.75" dy="1.35" layer="1"/>
-<circle x="8.509" y="8.382" radius="0.359209375" width="0" layer="21"/>
+<circle x="-8.636" y="-8.382" radius="0.359209375" width="0" layer="21"/>
 <wire x1="-8" y1="8" x2="-8" y2="-8" width="0.1" layer="51"/>
 <wire x1="8" y1="8" x2="8" y2="-8" width="0.01" layer="51"/>
 <polygon width="0.05" layer="51">
@@ -4651,6 +4651,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="U$1" library="output" package="ANT0" value="" x="8.636" y="25.781" smashed="yes" rot="R90"/>
 <element name="U4" library="SparkFun-RF" package="RFM97" value="RFM97CW" x="11.43" y="12.7" smashed="yes" rot="R270">
 <attribute name="NAME" x="12.43" y="12.7" size="1" layer="25" rot="R270" align="center"/>
+<attribute name="PROD_ID" value="IC-15944" x="11.43" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="10.43" y="12.7" size="1" layer="27" rot="R270" align="center"/>
 </element>
 <element name="C1" library="SparkFun-Capacitors" package="0603" value="10uF" x="7.62" y="2.54" smashed="yes" rot="R180">

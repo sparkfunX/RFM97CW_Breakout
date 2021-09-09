@@ -4917,7 +4917,7 @@ immunity whilst minimising current consumption. &lt;/p&gt;
 <text x="5.8" y="-7" size="0.8128" layer="21" ratio="15" align="center">ANT</text>
 </package>
 <package name="RFM97">
-<circle x="5.398" y="6.254" radius="0.5" width="0.127" layer="21"/>
+<circle x="-5.016" y="-5.557" radius="0.5" width="0.127" layer="21"/>
 <wire x1="-8" y1="8" x2="8" y2="8" width="0.127" layer="21"/>
 <wire x1="-8" y1="-8" x2="8" y2="-8" width="0.127" layer="21"/>
 <smd name="!CS!" x="-7.9" y="-3" dx="1.75" dy="1.35" layer="1"/>
@@ -4936,7 +4936,7 @@ immunity whilst minimising current consumption. &lt;/p&gt;
 <smd name="SCK" x="-7.9" y="3" dx="1.75" dy="1.35" layer="1"/>
 <smd name="SDI" x="-7.9" y="-1" dx="1.75" dy="1.35" layer="1"/>
 <smd name="SDO" x="-7.9" y="1" dx="1.75" dy="1.35" layer="1"/>
-<circle x="8.509" y="8.382" radius="0.359209375" width="0" layer="21"/>
+<circle x="-8.636" y="-8.382" radius="0.359209375" width="0" layer="21"/>
 <wire x1="-8" y1="8" x2="-8" y2="-8" width="0.1" layer="51"/>
 <wire x1="8" y1="8" x2="8" y2="-8" width="0.01" layer="51"/>
 <polygon width="0.05" layer="51">
@@ -5133,7 +5133,9 @@ lower current consumption than competing devices&lt;/p&gt;
 <connect gate="U1" pin="SDO" pad="SDO"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="IC-15944" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
